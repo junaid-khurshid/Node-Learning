@@ -1,6 +1,4 @@
-function sum(a, b){
-    return a + b;
-}
+const helpers = require('./helper');
 
-var total =  sum(110,90);
+var total = helpers.sum(110,90);
 console.log(total);
