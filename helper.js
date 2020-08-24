@@ -1,5 +1,11 @@
-function sum(a, b){
-    return a + b;
-}
+// function sum(a, b){
+//     return a + b;
+// }
 
-module.exports = { sum };
+// const sum = (a,b) =>{
+//     return a +b;
+// }
+
+exports.sum = (a,b) => a +b;
+
+//module.exports = { sum };
